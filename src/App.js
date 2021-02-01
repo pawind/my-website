@@ -1,11 +1,12 @@
-import FrontPage from "./components/sites/FrontPage/FrontPage";
+import React from "react";
+import Website from "./components/website/website";
 
-function App() {
-  return (
+const App = (props) => {
+  return(
     <div className="App">
-      <FrontPage />
+      <Website />
     </div>
-  );
+  )
 }
 
 export default App;
