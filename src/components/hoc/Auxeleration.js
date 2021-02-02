@@ -1,5 +1,5 @@
 const Auxeleration = (props) => (
-    <div className={props.className}>
+    <div className={props.class}>
         {props.children}
     </div>
 )

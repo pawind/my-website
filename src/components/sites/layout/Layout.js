@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import classes from "./Layout.module.css";
+import React from "react";
+import classes from "./Layout.css";
 import NavBar from "../../navigation/NavBar/NavBar";
 import Auxeleration from "../../hoc/Auxeleration";
 
@@ -7,10 +7,10 @@ const layout = (props) => {
     
     return(
     <div>
-        <NavBar className={classes.NavBar}/>
-        <Auxeleration class={classes.currentPage}>
+        <NavBar class="NavBar"/>
+        <div className="CurrentPage">
             {props.currentPage}
-        </Auxeleration>
+        </div>
     </div>
     ); 
 }
