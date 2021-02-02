@@ -1,9 +1,9 @@
-.NavBar {
-  margin: 20px;
+.Layout {
 }
 
-.CurrentPage {
-  padding: 100px;
-  margin-top: 100px;
-  background-color: aqua;
+.NavBar {
+}
+
+.CurrentPageContainer {
+  background-color: aquamarine;
 }

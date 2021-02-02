@@ -1,0 +1,7 @@
+.NavBar {
+  background: linear-gradient(to left, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.8));
+  height: 6vh;
+  display: flex;
+  color: white;
+  flex-direction: row-reverse;
+}
