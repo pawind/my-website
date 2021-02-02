@@ -1,18 +1,17 @@
 import React from "react";
-import classes from "./Layout.css";
+import "./Layout.css"
 import NavBar from "../../navigation/NavBar/NavBar";
 import Auxeleration from "../../hoc/Auxeleration";
 
 const layout = (props) => {
     
     return(
-    <div>
+    <div className="Layout">
         <NavBar class="NavBar"/>
-        <div className="CurrentPage">
+        <div className="CurrentPageContainer">
             {props.currentPage}
         </div>
     </div>
     ); 
 }
-
 export default layout;

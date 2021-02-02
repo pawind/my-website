@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import LandingPage from "../sites/LandingPage/LandingPage";
 import Layout from "../sites/layout/Layout";
+import "./Website.css";
 
 class Website extends Component {
     constructor(props) {
@@ -21,9 +22,12 @@ class Website extends Component {
                 currentPage = <LandingPage />
         }
         return (
-            <Layout currentPage={currentPage}>
+            <div className="Website">
+                <Layout currentPage={currentPage}>
                 
-            </Layout>
+                </Layout>
+            </div>
+            
         );
     }
 }

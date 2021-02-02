@@ -1,0 +1,6 @@
+.NavBar {
+  height: 6vh;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}

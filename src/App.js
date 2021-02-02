@@ -1,5 +1,5 @@
 import React from "react";
-import Website from "./components/website/website";
+import Website from "./components/Website/Website";
 
 const App = (props) => {
   return(
