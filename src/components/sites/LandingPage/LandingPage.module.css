@@ -1,3 +1,8 @@
 .LandingPage {
   height: 90vh;
 }
+
+img {
+  width: 10%;
+  border-radius: 4rem;
+}
