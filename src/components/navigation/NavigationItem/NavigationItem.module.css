@@ -1,4 +1,5 @@
 .NavigationItem {
+<<<<<<< HEAD
   background-color: white;
   border: none;
   color: black;
@@ -21,4 +22,6 @@
 .NavigationItem:hover {
   background-color: #555555;
   color: white;
+=======
+>>>>>>> ef36dbeea79c8b77468776a9dd2c4337f0a180ed
 }

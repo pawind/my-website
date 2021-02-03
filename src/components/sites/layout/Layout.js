@@ -10,6 +10,7 @@ const layout = (props) => {
         <div className="CurrentPageContainer">
             {props.currentPage}
         </div>
+        
     </div>
     ); 
 }
