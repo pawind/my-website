@@ -1,15 +1,9 @@
 .NavBar {
-<<<<<<< HEAD
-  height: 6vh;
+  padding: 3vh;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  background-color: rgb(44, 39, 39);
-=======
-  background: linear-gradient(to left, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.8));
-  height: 6vh;
-  display: flex;
-  color: white;
-  flex-direction: row-reverse;
->>>>>>> ef36dbeea79c8b77468776a9dd2c4337f0a180ed
+  background-color: #555555;
+  /* background: linear-gradient(to left, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.8));
+   */
 }
