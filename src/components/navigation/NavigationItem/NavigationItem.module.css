@@ -1,6 +1,5 @@
 .NavigationItem {
-<<<<<<< HEAD
-  background-color: white;
+  background-color: #555555;
   border: none;
   color: black;
   padding: 16px 32px;
@@ -11,17 +10,11 @@
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  border: 2px solid black;
 }
 
-.button5 {
-  background-color: white;
-  color: black;
-  border: 2px solid #555555;
-}
 
 .NavigationItem:hover {
-  background-color: #555555;
+  background-color: black;
   color: white;
-=======
->>>>>>> ef36dbeea79c8b77468776a9dd2c4337f0a180ed
 }
