@@ -1,0 +1,13 @@
+.sortingDisplay {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(218, 248, 244);
+  border: 3px solid black;
+  justify-content: space-around;
+}
+
+.barSpace {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}

@@ -1,4 +1,10 @@
 .LandingPage {
+  background-color: rgba(63, 84, 201, 0.534);
+  display: flex;
+  align-items: center;
+}
+
+.PersonalDescription {
   padding-top: 10%;
   height: 90vh;
   display: flex;

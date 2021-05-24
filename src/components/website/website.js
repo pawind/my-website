@@ -1,35 +1,31 @@
-import React, { Component } from 'react'
+import React, { useState } from "react";
 import LandingPage from "../sites/LandingPage/LandingPage";
-import Layout from "../sites/layout/Layout";
+import NavBar from "../navigation/NavBar/NavBar";
 import "./Website.css";
+import SortingVisualition from "../sites/Projects/SortingVisualition/src/App";
 
-class Website extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            currentPageName: "landing"
-        };
-    }
+const Website = (props) => {
+  const [currentPage, setCurrentPage] = useState(<LandingPage />);
 
-    render() {
-        const { currentPageName } = this.state;
-        let currentPage = null;
-        switch(currentPageName){
-            //case ("landing"):
-            //      currentPage = <LandingPage />
-            //         break;
-            default:
-                currentPage = <LandingPage />
-        }
-        return (
-            <div className="Website">
-                <Layout currentPage={currentPage}>
-                
-                </Layout>
-            </div>
-            
-        );
+  const handleChangePage = (newPageName) => {
+    console.log(newPageName);
+    //console.log("projects");
+
+    switch (newPageName) {
+      case "projects":
+        setCurrentPage(<SortingVisualition />);
+        break;
+      default:
+        setCurrentPage(<LandingPage />);
     }
-}
+  };
+
+  return (
+    <div className="Website">
+      <NavBar onPageChange={handleChangePage} />
+      <div className="CurrentPageContainer">{currentPage}</div>
+    </div>
+  );
+};
 
 export default Website;
