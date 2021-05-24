@@ -4,13 +4,13 @@ import classes from "./PersonalDescription.module.css";
 const PersonalDescription = (props) => {
     return (
         <div className={classes.PersonalDescription}>
-            <div className={classes.PersonalPic}>
                 <img
-                src={props.imgSrc}/>
-            </div>
-            <h1>{props.name}</h1>
-            <h2>{props.city}</h2>
-            <h3>{props.job}</h3>
+                className={classes.PersonalPic}
+                src={props.imgSrc}
+                alt="Picture of me"
+                />
+            <h1>{props.text.name}, {props.text.age}</h1>
+            <h3>{props.text.job} in {props.text.city}</h3>
         </div>
     );
 }

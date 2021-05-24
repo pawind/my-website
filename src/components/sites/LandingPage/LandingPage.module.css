@@ -1,11 +1,6 @@
 .LandingPage {
+  padding-top: 10%;
   height: 90vh;
-<<<<<<< HEAD
-}
-
-img {
-  width: 10%;
-  border-radius: 4rem;
-=======
->>>>>>> ef36dbeea79c8b77468776a9dd2c4337f0a180ed
+  display: flex;
+  justify-content: center;
 }
