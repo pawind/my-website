@@ -5,8 +5,7 @@ const PersonalDescription = (props) => {
     return (
         <div className={classes.PersonalDescription}>
             <div className={classes.PersonalPic}>
-                <img
-                src={props.imgSrc}/>
+                <img src={props.imgSrc} alt="Paul Windheuser"/>
             </div>
             <h1>{props.name}</h1>
             <h2>{props.city}</h2>

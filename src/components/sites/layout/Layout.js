@@ -6,9 +6,9 @@ const layout = (props) => {
     
     return(
     <div className="Layout">
-        <NavBar class="NavBar"/>
+        <NavBar handleSiteChange={props.handleSiteChange} className="NavBar"/>
         <div className="CurrentPageContainer">
-            {props.currentPage}
+            {props.children}
         </div>
         
     </div>
