@@ -3,7 +3,7 @@ import pic from "../../../assets/profilbild.jpg";
 import PersonalDescription from "../../PersonalDescription/PersonalDescription";
 
 const landingPage = (props) => {
-    return(
+  return (
     <div className={classes.LandingPage}>
         <div className={classes.PersonalDescription}>
             <PersonalDescription
@@ -13,7 +13,7 @@ const landingPage = (props) => {
             imgSrc={pic}/>
         </div>
     </div>
-    ); 
-}
+  );
+};
 
 export default landingPage;
